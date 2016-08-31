@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.ivanovsuper.changetheme.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/theme_small"
+        android:title="@string/small"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/theme_medium"
+        android:title="@string/medium"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/theme_large"
+        android:title="@string/large"
+        app:showAsAction="always"/>
+</menu>
